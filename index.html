@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Лесные пожары</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    </head>
+    <header>
+        <div id="menu">
+            <a href="classification and tyres of fires.html"title="Перейти на страницу(Классификация и виды пожаров)" style="color: yellow;">Классификация и виды пожаров</a>
+            <a href="fire grade.html"title="Перейти на страницу (Ранг пожара)"style="color: yellow;">Ранг пожара</a> 
+            <a href="stages of gorenje.html"title="Перейти на страницу (Стадии горения)"style="color: yellow;"> Стадии горения</a> 
+            <a href="reasons.html"title="Перейти на страницу (Причины)" style="color: yellow;"> Причины</a> 
+            <a href="what you need to do to avoid a fire.html"title="Перейти на страницу (Что нужно делать чтоб избежать возгарания)" style="color: yellow;">Что нужно делать чтоб избежать возгорания</a>
+        </div>
+    </header>
+    <body>
+        <h1 id="h1">
+            О себе
+            <hr>
+        </h1>
+        <div id="content">
+            <p>
+                Здравствуйте, дорогие читатели моего сайта!
+            </p>
+            <ul>
+            <h2>Моё имя</h2>
+            <b> Дмитрий</b>
+            </ul>
+            <p>
+                <br>
+                Я учусь в КИЖТ УрГУПС(Курганский институт железнодорожного транспорта Уральский государственный университет путей сообщения), на 3 курсе
+            </p>
+            <ul>
+            <li><h3>Цель создания данного сайта:</h3></li>
+            </ul>
+            <p>
+                На данном сайте я хочу вам рассказать что такое лесной пожар, его причины и опасность
+            </p>
+            <h2>Контакты</h2>
+            <ul>
+                <li><a href="https://vk.com/dgorchenev" target="_blank">VK</a></li>
+                <li><a href="https://t.me/Dmitriy_Gorchenev" target="_blank">Telegram</a></li>
+            </ul>
+        </div>
+        <p id="image">
+            <img src="https://bigpicture.ru/wp-content/uploads/2017/09/160.jpg"  width="50%" height="auto">
+        </p>
+        <hr>
+        <fieldset id="feedback">
+            <br>Если вы нашли ошибку или у вас какое-нибудь предложение
+            <form>
+                <label for="Имя">Введите своё имя</label><br>
+                <input type="text" id="Имя" name="Имя" value="" placeholder="Введите имя">
+                <br>
+                <label for="email">Введите свой email:</label>
+                <input type="email" id="email" name="email" placeholder="Введите email">
+                <br>
+                <textarea placeholder="Введите сообщение"></textarea>
+                <br>
+                <input type="submit" value="отправить сообщение">
+            </form>
+        </fleldset>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+        $(document).on("scroll", function () {
+            if($(window).scrollTop() === 0)
+            $("header").removeClass("fixed");
+            else
+            $("header").attr("class", "fixed");
+        });
+        </script> 
+    </body>
+</html>
